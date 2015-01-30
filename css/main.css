@@ -3,14 +3,28 @@ background-color: #251c4c;
 color: #fff;
 }
 
+header {
+  text-align: center;
+  display: block;
+}
+
 h1, h2, h3 {
   font-weight: bold;
   line-height: 1;
   font-size: 1.5rem
 }
 
-.h1 {
+h1 + nav {
   text-align: center;
+  background-color: lightgrey;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav: {
+  background-color: lightgrey;
+  text-align: center;
+  list-style-type: none;
 }
 
 body {
@@ -38,7 +52,7 @@ p {
 }
 
 figcaption {
-  font-size: 0.50rem
+  font-size: 0.50rem;
 }
 
 .intro {
@@ -48,7 +62,7 @@ figcaption {
 
 b{
   font-weight: bold;
-  font-size: 0.75rem
+  font-size: 0.75rem;
 }
 
 .quote {
@@ -65,25 +79,20 @@ a {
 }
 
 a:hover {
-  color:orange
-}s
-
-nav: {
-  background-colour: hotpink;
-  text-align: center
+  color:orange;
 }
 
-nav ul {
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-nav li {
+li {
   display: inline;
 }
 
-nav a {
+a {
   display:inline-block;
   padding: 0.5em 0.75em;
   background-color: magenta;
